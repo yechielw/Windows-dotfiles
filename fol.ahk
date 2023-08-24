@@ -28,7 +28,7 @@ IfWinExist ahk_exe BurpSuitePro.exe
 	return
 }
 else
-	Run C:\Users\YechielWorenklein\AppData\Local\Programs\BurpSuitePro\BurpSuitePro.exe 
+	Run C:\Users\%USERPROFILE%\AppData\Local\Programs\BurpSuitePro\BurpSuitePro.exe 
 	WinWait ahk_exe BurpSuitePro.exe 
 	WinActivate
 return
